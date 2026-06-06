@@ -1001,6 +1001,12 @@ p  { font-size: 1rem; color: var(--text-muted); }
     display: flex;
   }
 
+  /* "Anfragen"-Button auf Mobil ausblenden – der Button im Hamburger-Menü genügt.
+     !important überschreibt das per JS gesetzte inline display:inline-flex. */
+  .nav__cta {
+    display: none !important;
+  }
+
   .ueber-inner {
     grid-template-columns: 1fr;
     gap: 2.5rem;
