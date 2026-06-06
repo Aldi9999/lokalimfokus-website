@@ -919,6 +919,18 @@ p  { font-size: 1rem; color: var(--text-muted); }
   color: var(--text-muted);
 }
 
+/* Zurück-Button in der Rechtsseiten-Navigation */
+.nav__back {
+  font-size: 0.85rem;
+  padding: 0.5rem 1.1rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.nav__back-short {
+  display: none;
+}
+
 .legal-content {
   max-width: 760px;
   margin: 0 auto;
@@ -1017,6 +1029,19 @@ p  { font-size: 1rem; color: var(--text-muted); }
 @media (max-width: 600px) {
   .section {
     padding: 3.5rem 0;
+  }
+
+  /* Auf schmalen Handys kurzen Button-Text zeigen, Logo etwas verkleinern */
+  .nav__back-full {
+    display: none;
+  }
+
+  .nav__back-short {
+    display: inline;
+  }
+
+  .legal-page .nav__logo-text {
+    font-size: 0.95rem;
   }
 
   .hero__inner {
