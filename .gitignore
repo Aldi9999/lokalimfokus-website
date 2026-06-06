@@ -1,0 +1,12 @@
+# Interne Dateien – gehören NICHT auf die öffentliche Webseite
+.agents/
+.claude/
+brand/
+Claude.md
+CLAUDE.md
+skills-lock.json
+
+# OS / Editor
+Thumbs.db
+.DS_Store
+.vscode/
