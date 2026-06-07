@@ -30,7 +30,7 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  color-scheme: light;
+  color-scheme: only light;
   --primary:     #1B3A6B;
   --primary-dark:#132D54;
   --accent:      #E8722A;
